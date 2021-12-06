@@ -22,7 +22,7 @@ export default {
         e.ctrlKey ||
         e.shiftKey
       )
-        return true;
+        return;
 
       // 通常の動作をキャンセルしてemitでイベントを送信
       e.preventDefault();
